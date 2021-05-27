@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class ReconstructQueueByHeight {
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, ((o1, o2) -> {
             if (o1[0] != o2[0]) {
