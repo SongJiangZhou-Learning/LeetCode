@@ -1,8 +1,10 @@
+package _0997_Find_the_Town_Judge;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-class FindTheTownJudge {
+class Solution {
     public int findJudge(int n, int[][] trust) {
         if (n == 1) {
             return 1;

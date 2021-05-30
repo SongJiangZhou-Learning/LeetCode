@@ -1,6 +1,8 @@
+package _0406_Queue_Reconstruction_by_Height;
+
 import java.util.Arrays;
 
-class ReconstructQueueByHeight {
+class Solution {
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, ((o1, o2) -> {
             if (o1[0] != o2[0]) {

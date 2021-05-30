@@ -1,7 +1,9 @@
+package _0022_Generate_Parentheses;
+
 import java.util.ArrayList;
 import java.util.List;
 
-class GenerateParenthesis {
+class Solution {
     private static final String LEFT = "(";
     private static final String RIGHT = ")";
 
